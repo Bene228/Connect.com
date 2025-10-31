@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONNECT.com</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaquery.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div><img src="./Images/Connect logo.png" alt="connect img" class="logo__img"></div>
+        <div>
+            <ul class="navbar__section__2">
+                <li><a href="#home" onclick="location.href='./#home'">Home</a></li>
+                <li><a href="#about" onclick="location.href='./#about'">About</a></li>
+                <li><a href="#features" onclick="location.href='./#features'">Features</a></li>
+                <li><a href="#contact" onclick="location.href='./#contact'">Contact</a></li>
+            </ul>
+        </div>
+        <div class="btn__cover">
+            <button class="btn btn_collapse" onclick="location.href='./Sign Up/index.html'">Sign Up</button>
+            <button class="btn btn_collapse" onclick="location.href='./Get Started and More/index.html'">Get Started →</button>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#features" onclick="toggleMenu()">Features</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div> 
+    </nav>
+    <section id="home">
+        <div>
+            <h2 class="home__text">Connecting People, Ideas, and Opportunities.</h2>
+            <p class="home__text__p">CONNECT Help individuals and teams build stronger relationships through seamless communication and smart collaboration tools.</p>
+            <p></p>
+            <div class="trial__btn">
+                <button class="btn" onclick="location.href='./News and Info/index.html'">Get 7 Days Free Trial →</button>
+                <button class="btn" onclick="location.href='./News and Info/index.html'">See News »</button>
+            </div>
+            <div class="home__display">
+                <img src="./Images/file_000000003b64620a9d246819da3d8ec4.png" alt="connect building" width="100%" class="home__display__img">
+                <div class="display_home-1">
+                    <h5 class="ten">10+</h5>
+                    <p>Our Esteemed Clients and Partners</p>
+                </div>
+                <div class="display_home-2">
+                    <div class="display-text">
+                        <p>Total Projects </p>
+                        <button class="btn__like">🡥</button>
+                        <p class="p">6%</p>
+                    </div>
+                    <h5 class="home__text-2">187+</h5>
+                    <p>Increase in successful projects through seamless <h6>communications.</h6></p>
+                </div>
+                <div class="display_home-3">
+                    <div class="just_text">
+                        <h5 class="home__text-2">3+</h5>
+                        <p>Years of Premium Services.</p>
+                        <p>We Build, Communicate,<br> and Grow Together.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section id="about">
+        <div>
+            <h5>Get to Know More </h5>
+            <p class="home__text-1">About Us</p>
+        </div>
+        <div class="about__container">
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./Images/brazilian-family-enjoying-meal-together.jpg" alt="People enjoying meal together." class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                    <p><em>CONNECT</em> is a modern platform designed to bridge people, ideas, and opportunities.
+                        The future belongs to those who connect.
+                        Build, Share, and Grow - all in one place.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-container section-container2">
+                <div class="about-details-container">
+                    <div class="about-containers">
+                    <p><em>CONNECT</em> empowers communities to grow together by making communication effortless amd meaningful.
+                        With smart, intuitive tools, we bridge gap between communications and creation - 
+                        turning conversations into results.
+                        </p>
+                    </div>
+                </div>
+                <div class="section__pic-container">
+                    <img src="./Images/medium-shot-people-taking-selfie.jpg" alt="People Learning together." class="about-pic">
+                </div>
+            </div>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./Images/coworkers-listening-hilarious-story.jpg" alt="People sharing ideas." class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                    <p><em>CONNECT</em> brings people closer, fueling collaboration and growth through technology that unites.
+                        <em>CONNECT</em> is more than a name - It's a promise. A seamless network built to unite ideas with elegance and precision.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="features">
+        <div>
+            <p class="features__text-1">Our Features</p>
+            <h5 class="features__text-2">Discover the tools that empower your journey.</h5>
+        </div>
+        <div class="feature-container">
+            <div class="all__features">
+                <div class="feature-item"> 
+                    <img src="./Images/accessibility.png" alt="Accessibility Icon" class="feature-icon" width="100%">
+                    <p>🡥</p>
+                </div>
+                <div class="feature-text">
+                    <h4>Accessibility</h4>
+                    <p class="feature-text-1">Connect anytime, anywhere with our platform's seamless accessibility across all devices. Stay connected on the go!</p>
+                </div>
+            </div>
+
+            <div class="all__features">
+                <div class="feature-item"> 
+                    <img src="./Images/analytics.png" alt="Analytics Icon" class="feature-icon" width="100%">
+                    <p>🡥</p>
+                </div>
+                <div class="feature-text">
+                    <h4>Analytics</h4>
+                    <p class="feature-text-1">Gain valuable insights with our advanced analytics tools, helping you make data-driven decisions.</p>
+                </div>
+            </div>
+            
+            <div class="clear">
+                <div class="all__features">
+                    <div class="feature-item"> 
+                        <img src="./Images/innovation.png" alt="Innovation Icon" class="feature-icon" width="100%">
+                        <p>🡥</p>
+                    </div>
+                    <div class="feature-text">
+                        <h4>Innovation</h4>
+                        <p class="feature-text-1">Stay ahead of the curve with our innovative solutions, designed to adapt and evolve with your needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+         <div class="feature-container">
+            <div class="all__features">
+                <div class="feature-item"> 
+                    <img src="./Images/link.png" alt="Link Icon" class="feature-icon" width="100%">
+                    <p>🡥</p>
+                </div>
+                <div class="feature-text">
+                    <h4>Link</h4>
+                    <p class="feature-text-1">Easily link and integrate with your favorite tools and platforms for a seamless workflow experience.</p>
+                </div>
+            </div>
+
+            <div class="all__features">
+                <div class="feature-item"> 
+                    <img src="./Images/market-share.png" alt="Market Share Icon" class="feature-icon" width="100%">
+                    <p>🡥</p>
+                </div>
+                <div class="feature-text">
+                    <h4>Market Share</h4>
+                    <p class="feature-text-1">Expand your reach with our market share tools, designed to help you connect with a broader audience.</p>
+                </div>
+            </div>
+           
+            <div class="clear">
+                <div class="all__features">
+                    <div class="feature-item"> 
+                        <img src="./Images/social-network.png" alt="Social Network Icon" class="feature-icon" width="100%">
+                        <p>🡥</p>
+                    </div>
+                    <div class="feature-text">
+                        <h4>Social Network</h4>
+                        <p class="feature-text-1">Stay connected with our social network features, designed to enhance collaboration and communication.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="contact">
+        <div class="contact__container">
+            <div class="first__contact">
+                <div>
+                    <h4>Get in Touch</h4>
+                    <p class="contact__text-1">We'd love to hear from you! Whether you have questions,
+                    feedback, or just want to say hello, our team is here to assist you.</p>
+                </div>
+                <img src="./Images/file_0000000059a8620ab9f7163292fa7001.png" alt="connect img" class="contact__logo__img" width="60%">
+            </div>
+            <div class="second__contact">
+                <h4>Contact Us</h4>
+                <div>
+                    <p class="terms">bene@gmail.com</p>
+                    <p class="terms">+223 (255) 456 71</p>
+                    <input type="text" placeholder="Write Message" class="input" required>
+                   <div class="terms fix"><button type="submit" class="btn">Send Message</button></div>
+                </div>
+            </div>
+            <div class="third__contact">
+                <h4 class="text_inline">Follow Us</h4>
+                <div>
+                    <img src="./Images/communication.png" alt="Facebook Icon" class="social-icon" width="30px">
+                    <img src="./Images/twitter.png" alt="Twitter Icon" class="social-icon" width="30px">
+                    <img src="./Images/instagram.png" alt="Instagram Icon" class="social-icon" width="30px">
+                    <img src="./Images/linkedin.png" alt="LinkedIn Icon" class="social-icon" width="30px">
+                </div>
+            </div>
+            <div class="fourth__contact">
+                <h4>Legal</h4>
+                <p class="privacy contact__text-1"><a href="#terms" onclick="location.href='./Get Started and More/index.html'">Terms of Service</a></p>
+                <p class="privacy contact__text-1"><a href="#privacy" onclick="location.href='./Get Started and More/index.html'">Privacy Policy</a></p>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <nav>
+        <div class="nav-links-container">
+            <ul class="footer1">
+                <li><a href="#home"onclick="location.href='./#home'" >Home</a></li>
+                <li><a href="#about" onclick="location.href='./#about'">About</a></li>
+                <li><a href="#features" onclick="location.href='./#features'">Features</a></li>
+                <li><a href="#contact" onclick="location.href='./#contact'">Contact</a></li>
+            </ul>
+        </div>
+        </nav>
+        <p>Copyright ©, 2025 Benedict Okoro. All Rights Reserved.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

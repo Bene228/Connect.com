@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Lato;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin: 0px;
+}
+
+a {
+    color: rgb(39, 67, 246);
+    text-decoration: none;
+}
+
+#Get_Started {
+    padding: 40px;
+}
+
+#Get_Started h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#terms_n_policy {
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.Terms {
+    margin-bottom: 15px;
+}
